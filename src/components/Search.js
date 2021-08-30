@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import Location from './Location'
 import Date from './Date'
 import WeatherBox from './WeatherBox'
-import RecentSearches from './RecentSearches'
 
 
 // Search Box
@@ -15,24 +14,21 @@ const Search = () => {
 
     const [query, setQuery] = useState('');
     const [weather, setWeather] = useState({});
-    const [city, setCities] = useState([]);
+    const [cities, setCities] = useState([]);
 
     useEffect(() => {
         const getCities = async () => {
-            const citiesFromServer = await addSearchedCities()
+            const citiesFromServer = await fetchCities()
             setCities(citiesFromServer);
         }
         getCities();
     }, [])
 
-
-    // // get cities already searched
-    // const getSearchedCities = async () => {
-    //     const res = await fetch('http://localpost:5000/cities');
-    //     const data = await res.json();
-    //     return data;
-    // }
-
+    const fetchCities = async () => {
+        const res = await fetch("http://localhost:5000/cities");
+        const data = res.json();
+        return data;
+    }
     // add searched cities to server backend
     const addSearchedCities = async (city) => {
         const res = await fetch(`http://localhost:5000/cities`, {
@@ -40,10 +36,9 @@ const Search = () => {
             headers: { "Content-type": "application/json" },
             body: JSON.stringify(city),
         });
-        const data = res.json();
-        setCities([...city, data])
+        const data = await res.json();
+        setCities([...cities, data]);
     }
-
 
     const searchCity = (e) => {
         if (e.key === "Enter") {
@@ -55,9 +50,8 @@ const Search = () => {
                     }
                     setWeather(result);
                     setQuery('');
-                    addSearchedCities();
+                    addSearchedCities(result);
                 });
-
         }
     }
 
@@ -84,7 +78,6 @@ const Search = () => {
                             <WeatherBox weather={weather} />
                         </div>
                     ) : ('')}
-                    <RecentSearches />
                 </div>
             </main>
         </div >
