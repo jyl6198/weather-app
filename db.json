@@ -490,6 +490,328 @@
       "id": 5879092,
       "name": "Alaska",
       "cod": 200
+    },
+    {
+      "coord": {
+        "lon": 126.9778,
+        "lat": 37.5683
+      },
+      "weather": [
+        {
+          "id": 803,
+          "main": "Clouds",
+          "description": "broken clouds",
+          "icon": "04n"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 20.16,
+        "feels_like": 20.61,
+        "temp_min": 18.23,
+        "temp_max": 21.66,
+        "pressure": 1010,
+        "humidity": 91
+      },
+      "visibility": 10000,
+      "wind": {
+        "speed": 1.03,
+        "deg": 10
+      },
+      "clouds": {
+        "all": 75
+      },
+      "dt": 1630528413,
+      "sys": {
+        "type": 1,
+        "id": 8105,
+        "country": "KR",
+        "sunrise": 1630530186,
+        "sunset": 1630576865
+      },
+      "timezone": 32400,
+      "id": 1835848,
+      "name": "Seoul",
+      "cod": 200
+    },
+    {
+      "cod": "404",
+      "message": "city not found",
+      "id": 5879093
+    },
+    {
+      "cod": "404",
+      "message": "city not found",
+      "id": 5879094
+    },
+    {
+      "coord": {
+        "lon": -4.8359,
+        "lat": 43.3084
+      },
+      "weather": [
+        {
+          "id": 803,
+          "main": "Clouds",
+          "description": "broken clouds",
+          "icon": "04n"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 21.24,
+        "feels_like": 21.64,
+        "temp_min": 18.47,
+        "temp_max": 21.38,
+        "pressure": 1018,
+        "humidity": 85,
+        "sea_level": 1018,
+        "grnd_level": 999
+      },
+      "visibility": 10000,
+      "wind": {
+        "speed": 1.34,
+        "deg": 163,
+        "gust": 1.22
+      },
+      "clouds": {
+        "all": 70
+      },
+      "dt": 1630528693,
+      "sys": {
+        "type": 2,
+        "id": 2011070,
+        "country": "ES",
+        "sunrise": 1630475019,
+        "sunset": 1630522526
+      },
+      "timezone": 7200,
+      "id": 3118304,
+      "name": "Poo",
+      "cod": 200
+    },
+    {
+      "cod": "404",
+      "message": "city not found",
+      "id": 5879095
+    },
+    {
+      "coord": {
+        "lon": -93.2638,
+        "lat": 44.98
+      },
+      "weather": [
+        {
+          "id": 802,
+          "main": "Clouds",
+          "description": "scattered clouds",
+          "icon": "03d"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 25.78,
+        "feels_like": 25.67,
+        "temp_min": 24.04,
+        "temp_max": 27.36,
+        "pressure": 1017,
+        "humidity": 48
+      },
+      "visibility": 10000,
+      "wind": {
+        "speed": 0.89,
+        "deg": 128,
+        "gust": 4.47
+      },
+      "clouds": {
+        "all": 40
+      },
+      "dt": 1630528588,
+      "sys": {
+        "type": 2,
+        "id": 2008025,
+        "country": "US",
+        "sunrise": 1630496137,
+        "sunset": 1630543844
+      },
+      "timezone": -18000,
+      "id": 5037649,
+      "name": "Minneapolis",
+      "cod": 200
+    },
+    {
+      "coord": {
+        "lon": -93.1472,
+        "lat": 45.0791
+      },
+      "weather": [
+        {
+          "id": 802,
+          "main": "Clouds",
+          "description": "scattered clouds",
+          "icon": "03d"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 25.54,
+        "feels_like": 25.43,
+        "temp_min": 23.81,
+        "temp_max": 27.21,
+        "pressure": 1011,
+        "humidity": 49
+      },
+      "visibility": 10000,
+      "wind": {
+        "speed": 2.68,
+        "deg": 135,
+        "gust": 5.36
+      },
+      "clouds": {
+        "all": 40
+      },
+      "dt": 1630528594,
+      "sys": {
+        "type": 2,
+        "id": 2011026,
+        "country": "US",
+        "sunrise": 1630496102,
+        "sunset": 1630543824
+      },
+      "timezone": -18000,
+      "id": 5047234,
+      "name": "Shoreview",
+      "cod": 200
+    },
+    {
+      "coord": {
+        "lon": 3.4531,
+        "lat": 6.9338
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04n"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 24.56,
+        "feels_like": 25.53,
+        "temp_min": 24.56,
+        "temp_max": 24.56,
+        "pressure": 1011,
+        "humidity": 94,
+        "sea_level": 1011,
+        "grnd_level": 1003
+      },
+      "visibility": 10000,
+      "wind": {
+        "speed": 2.1,
+        "deg": 198,
+        "gust": 7.26
+      },
+      "clouds": {
+        "all": 99
+      },
+      "dt": 1630528734,
+      "sys": {
+        "country": "NG",
+        "sunrise": 1630474740,
+        "sunset": 1630518828
+      },
+      "timezone": 3600,
+      "id": 2327546,
+      "name": "Daddy",
+      "cod": 200
+    },
+    {
+      "coord": {
+        "lon": -156.5003,
+        "lat": 20.7503
+      },
+      "weather": [
+        {
+          "id": 801,
+          "main": "Clouds",
+          "description": "few clouds",
+          "icon": "02d"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 29.01,
+        "feels_like": 30.19,
+        "temp_min": 28.59,
+        "temp_max": 29.01,
+        "pressure": 1015,
+        "humidity": 54
+      },
+      "visibility": 10000,
+      "wind": {
+        "speed": 4.63,
+        "deg": 320
+      },
+      "clouds": {
+        "all": 20
+      },
+      "dt": 1630528758,
+      "sys": {
+        "type": 1,
+        "id": 7879,
+        "country": "US",
+        "sunrise": 1630512611,
+        "sunset": 1630557717
+      },
+      "timezone": -36000,
+      "id": 5855797,
+      "name": "Hawaii",
+      "cod": 200
+    },
+    {
+      "coord": {
+        "lon": 16.4063,
+        "lat": -78.1586
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04n"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": -50.76,
+        "feels_like": -57.76,
+        "temp_min": -50.76,
+        "temp_max": -50.76,
+        "pressure": 1018,
+        "humidity": 100,
+        "sea_level": 1018,
+        "grnd_level": 637
+      },
+      "visibility": 10000,
+      "wind": {
+        "speed": 5.42,
+        "deg": 352,
+        "gust": 6.16
+      },
+      "clouds": {
+        "all": 99
+      },
+      "dt": 1630528784,
+      "sys": {
+        "sunrise": 1630481235,
+        "sunset": 1630506116
+      },
+      "timezone": 7200,
+      "id": 6255152,
+      "name": "Antarctica",
+      "cod": 200
     }
   ]
 }
